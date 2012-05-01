@@ -11,6 +11,7 @@ Patch1:		%{name}-1.4-datapath.patch
 Source1:	berusky.png
 BuildRequires:	SDL-devel
 BuildRequires:	gettext-devel
+BuildRequires:	zlib-devel
 Requires:	%{name}-data
 
 %description
