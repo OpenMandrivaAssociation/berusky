@@ -1,0 +1,12 @@
+diff -urN berusky-1.4/configure.in berusky-1.4-patched/configure.in
+--- berusky-1.4/configure.in	2012-03-26 00:22:08.000000000 +1100
++++ berusky-1.4-patched/configure.in	2012-05-02 00:08:23.108396891 +1100
+@@ -22,7 +22,7 @@
+ 
+ dnl Languages which your application supports
+ ALL_LINGUAS=""
+-AM_GLIB_GNU_GETTEXT
++AM_GNU_GETTEXT([external])
+ 
+ AM_PROG_LIBTOOL
+ 
