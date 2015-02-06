@@ -1,6 +1,6 @@
 Name:		berusky
 Version:	1.4
-Release:	%mkrel 1
+Release:	2
 Summary:	Sokoban clone
 License:	GPLv2+
 Group:		Games/Puzzles
