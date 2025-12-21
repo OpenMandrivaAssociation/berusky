@@ -9,6 +9,11 @@ Source0:	http://anakreon.cz/download/%{name}-%{version}.tar.gz
 Patch0:		%{name}-1.4-gettext.patch
 Patch1:		%{name}-1.4-datapath.patch
 Source1:	berusky.png
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(sdl)
 BuildRequires:	gettext-devel
 Requires:	%{name}-data
